@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Vex Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Vex Team</h1>
+        <nav>
+            <ul class="nav-tabs">
+                <li><a href="#home" class="tab-link active" onclick="openTab(event, 'home')">Home</a></li>
+                <li><a href="#schedule" class="tab-link" onclick="openTab(event, 'schedule')">Schedule</a></li>
+                <li><a href="#notes" class="tab-link" onclick="openTab(event, 'notes')">Notes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="tab-content active">
+            <h2>Welcome to My Vex Team!</h2>
+            <p>Hello World! This is the home page for our VEX Robotics team. Use the navigation above to access our schedule and notes.</p>
+            <div class="team-info">
+                <h3>About Our Team</h3>
+                <p>We are a dedicated VEX Robotics team working together to build innovative robots and compete in exciting challenges.</p>
+            </div>
+        </div>
+
+        <div id="schedule" class="tab-content">
+            <h2>Team Schedule</h2>
+            <div class="schedule-container">
+                <h3>Upcoming Events</h3>
+                <ul class="schedule-list">
+                    <li>
+                        <strong>Team Meeting</strong> - Every Tuesday, 3:30 PM - 5:30 PM
+                        <span class="location">Robotics Lab</span>
+                    </li>
+                    <li>
+                        <strong>Build Session</strong> - Every Thursday, 3:30 PM - 6:00 PM
+                        <span class="location">Robotics Lab</span>
+                    </li>
+                    <li>
+                        <strong>Programming Workshop</strong> - Every Saturday, 10:00 AM - 12:00 PM
+                        <span class="location">Computer Lab</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="notes" class="tab-content">
+            <h2>Team Notes</h2>
+            <div class="notes-container">
+                <h3>Meeting Notes & Ideas</h3>
+                <div class="note">
+                    <h4>Latest Meeting Notes</h4>
+                    <p>Add your team meeting notes here...</p>
+                </div>
+                <div class="note">
+                    <h4>Robot Design Ideas</h4>
+                    <p>Document your robot design ideas and improvements...</p>
+                </div>
+                <div class="note">
+                    <h4>Competition Strategy</h4>
+                    <p>Notes about competition strategies and game analysis...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Vex Team. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
