@@ -97,6 +97,21 @@ main {
 }
 
 /* Home Page Styles */
+.team-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.team-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
 .team-info {
     margin-top: 2rem;
     padding: 1.5rem;
